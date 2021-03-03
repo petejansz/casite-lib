@@ -33,6 +33,8 @@ class CalifSite(object):
     def pdenvs(self): return list(self.__CA_PD_VHOSTS.keys())
 
     def gamesvhost(self, envname): return self.__CA_CHECKATICKET_VHOSTS[envname]
+    def gamesvhosts(self): return list(self.__CA_CHECKATICKET_VHOSTS.values())
+    def gamesenvs(self): return list(self.__CA_CHECKATICKET_VHOSTS.keys())
 
     __CA_PD_VHOSTS = {}
     __CA_PD_VHOSTS['apl'] = 'caapl.lotteryservices.com'
