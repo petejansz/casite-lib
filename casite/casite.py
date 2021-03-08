@@ -72,4 +72,13 @@ class CalifSite(object):
     __CA_CHECKATICKET_VHOSTS['prod-mobile'] = __CA_CHECKATICKET_VHOSTS['pdc-mobile']
     __CA_CHECKATICKET_VHOSTS['prod'] = __CA_CHECKATICKET_VHOSTS['pdc']
 
-age = 58
+    __GAMES = []
+    __GAMES.append('DAILY3')
+    __GAMES.append('DAILY4')
+    __GAMES.append('DAILYDERBY')
+    __GAMES.append('FANTASY5')
+    __GAMES.append('KENO')
+    __GAMES.append('MEGAMILLIONS')
+    __GAMES.append('POWERBALL')
+    __GAMES.append('RAFFLE')
+    __GAMES.append('SUPERLOTTO')
