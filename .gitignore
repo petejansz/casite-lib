@@ -1,1 +1,3 @@
 .history/
+casite.egg-info/
+casite/__pycache__/
