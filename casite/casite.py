@@ -36,6 +36,8 @@ class CalifSite(object):
     def gamesvhosts(self): return list(self.__CA_CHECKATICKET_VHOSTS.values())
     def gamesenvs(self): return list(self.__CA_CHECKATICKET_VHOSTS.keys())
 
+    def gameNames(self): return list(self.__GAMES)
+
     __CA_PD_VHOSTS = {}
     __CA_PD_VHOSTS['apl'] = 'caapl.lotteryservices.com'
     __CA_PD_VHOSTS['mobile-apl'] = 'mobile-caapl.lotteryservices.com'
